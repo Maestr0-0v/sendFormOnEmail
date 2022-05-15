@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Форма для почты</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body">
+                <h1 class="form__title">Отправка данных на почту</h1>
+                <div class="form__item">
+                    <label for="forName" class="form__label">Имя*</label>
+                    <input id="formName" type="text" name="name" class="form__inpur">
+                </div>
+                <div class="form__item">
+                    <label for="forEmail" class="form__label">E-mail*</label>
+                    <input id="formEmail" type="text" name="email" class="form__inpur">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
