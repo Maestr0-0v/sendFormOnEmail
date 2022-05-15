@@ -14,11 +14,37 @@
                 <h1 class="form__title">Отправка данных на почту</h1>
                 <div class="form__item">
                     <label for="forName" class="form__label">Имя*</label>
-                    <input id="formName" type="text" name="name" class="form__inpur">
+                    <input id="formName" type="text" name="name" class="form__input">
                 </div>
                 <div class="form__item">
                     <label for="forEmail" class="form__label">E-mail*</label>
-                    <input id="formEmail" type="text" name="email" class="form__inpur">
+                    <input id="formEmail" type="text" name="email" class="form__input">
+                </div>
+                <div class="form__item">
+                    <div class="form__titel">Ты програмировал раньше</div>
+                    <div class="Option">
+                        <div class="options_item">
+                            <input id="forYesChoice" checked type="radio" name="experience" value="Yes" class="opions__input">
+                            <label for="forYesChoice" class="options__lable">Yes</label>
+                        </div>
+                        <div class="options_item" >
+                            <input id="forNoChoice" type="radio" name="experience" value="No" class="opions__input">
+                            <label for="forNoChoice" class="options__lable">No</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="forMessage" class="form__label">Сообщение</label>
+                    <textarea name="message" id="forMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Возраст:</div>
+                    <select name="age" id="select">
+                        <option value="1">Неплох</option>
+                        <option value="2">Хорош</option>
+                        <option value="3">Мегахорошо</option>
+                    </select>
                 </div>
             </form>
         </div>

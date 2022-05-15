@@ -1,0 +1,29 @@
+body{
+    background-color: darkseagreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.wrapper{
+    
+    font-size:18px;
+}
+
+.form__item{
+ 
+}
+.form__label{
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+
+.form__input{
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+}
+
+textarea{
+    min-height: 200px;
+    resize: vertical;
+}
